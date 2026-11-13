@@ -1,0 +1,28 @@
+Matplotlib is building the font cache; this may take a moment.
+device: mps
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /Users/kimyedamsmac/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+  epoch 1 step 100/782 loss 0.7967
+  epoch 1 step 200/782 loss 0.5878
+  epoch 1 step 300/782 loss 0.4961
+  epoch 1 step 400/782 loss 0.4357
+  epoch 1 step 500/782 loss 0.3995
+  epoch 1 step 600/782 loss 0.3702
+  epoch 1 step 700/782 loss 0.3458
+{'epoch': 1, 'train_loss': 0.3318, 'train_acc': 0.8897, 'test_acc': 0.9336, 'seconds': 540}
+  epoch 2 step 100/782 loss 0.1199
+  epoch 2 step 200/782 loss 0.1221
+  epoch 2 step 300/782 loss 0.1246
+  epoch 2 step 400/782 loss 0.1278
+  epoch 2 step 500/782 loss 0.1301
+  epoch 2 step 600/782 loss 0.1289
+  epoch 2 step 700/782 loss 0.1299
+{'epoch': 2, 'train_loss': 0.1302, 'train_acc': 0.9575, 'test_acc': 0.9359, 'seconds': 590}
+  epoch 3 step 100/782 loss 0.0772
+  epoch 3 step 200/782 loss 0.0787
+  epoch 3 step 300/782 loss 0.0792
+  epoch 3 step 400/782 loss 0.0804
+  epoch 3 step 500/782 loss 0.0820
+  epoch 3 step 600/782 loss 0.0805
+  epoch 3 step 700/782 loss 0.0832
+{'epoch': 3, 'train_loss': 0.0857, 'train_acc': 0.9721, 'test_acc': 0.943, 'seconds': 575}
+done: 0.943 (28.4 min)

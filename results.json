@@ -1,0 +1,48 @@
+{
+  "config": {
+    "model": "resnet18 (IMAGENET1K_V1)",
+    "epochs": 3,
+    "batch_size": 64,
+    "lr": 0.0001,
+    "optimizer": "Adam",
+    "device": "mps",
+    "seed": 42
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3318,
+      "train_acc": 0.8897,
+      "test_acc": 0.9336,
+      "seconds": 540
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1302,
+      "train_acc": 0.9575,
+      "test_acc": 0.9359,
+      "seconds": 590
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0857,
+      "train_acc": 0.9721,
+      "test_acc": 0.943,
+      "seconds": 575
+    }
+  ],
+  "final_test_acc": 0.943,
+  "class_acc": {
+    "airplane": 0.935,
+    "automobile": 0.979,
+    "bird": 0.925,
+    "cat": 0.893,
+    "deer": 0.965,
+    "dog": 0.895,
+    "frog": 0.983,
+    "horse": 0.962,
+    "ship": 0.963,
+    "truck": 0.93
+  },
+  "total_minutes": 28.4
+}
